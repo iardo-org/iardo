@@ -1,0 +1,385 @@
+/* =====================================================
+   1. GOOGLE FONTS IMPORT
+===================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* =====================================================
+   2. VARIABLES (LIGHT THEME)
+===================================================== */
+:root {
+    --swiggy-orange: #FC8019;
+    --swiggy-dark-orange: #E07015;
+    --swiggy-light-orange: #FF9633;
+    
+    --bg-white: #ffffff;
+    --bg-light: #f8f9fa;
+    --bg-soft-orange: #fff9f5;
+    
+    --border-light: #e5e7eb;
+    --card-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+    background: var(--bg-white) !important;
+    line-height: 1.6;
+    overflow-x: hidden;
+    color: #374151;
+}
+
+/* Hide Dark Theme Backgrounds */
+#particleCanvas, .bg-gradient, .hero::before, .hero::after {
+    display: none !important;
+}
+
+/* =====================================================
+   3. TYPOGRAPHY & TEXT VISIBILITY
+===================================================== */
+
+/* Premium Dark Headings */
+h1, h2, h3, h4, h5, h6,
+.section-header h2, 
+.animated-heading, 
+.what-is-section h2, 
+.scope-section h2, 
+.doc-name, 
+.stat-number, 
+.cta h2, 
+.cta-content h2,
+.cta-container h2 {
+    font-family: 'Montserrat', sans-serif !important;
+    color: #0F172A !important;
+    -webkit-text-fill-color: #0F172A !important;
+    font-weight: 900 !important;
+    letter-spacing: -1px !important;
+    text-shadow: none !important;
+}
+
+/* Card Headings */
+.feature-card h3, .reason-card h3, .mini-card h3, .step-content h3, .trust-item h4 {
+    font-family: 'Montserrat', sans-serif !important;
+    color: #0F172A !important;
+    -webkit-text-fill-color: #0F172A !important;
+    font-weight: 800 !important;
+}
+
+/* Normal Paragraphs */
+p, .hero-tagline, .section-header .subtitle, .what-is-text p, .mini-card p, .reason-card p, .scope-card p, .feature-card p, .step-content p, .stat-label, .cta p, .cta-content p, .cta-container p {
+    font-family: 'Poppins', sans-serif !important;
+    color: #475569 !important;
+    -webkit-text-fill-color: #475569 !important;
+    font-weight: 500 !important;
+}
+
+/* Swiggy Orange Highlights */
+.highlight, .word-highlight, .word-swiggy, .hero-tagline .highlight, .what-is-text p strong {
+    font-family: 'Montserrat', sans-serif !important;
+    color: var(--swiggy-orange) !important;
+    -webkit-text-fill-color: var(--swiggy-orange) !important;
+    font-weight: 900 !important;
+}
+
+/* BUTTONS */
+.btn-primary, .btn-whatsapp, .btn-cta, .btn-cta-whatsapp, .step-number {
+    color: #FFFFFF !important;
+    -webkit-text-fill-color: #FFFFFF !important;
+}
+
+/* =====================================================
+   4. HERO SECTION
+===================================================== */
+.hero {
+    background: linear-gradient(135deg, #fff9f5 0%, #ffffff 100%) !important;
+    padding: 120px 0 80px;
+    position: relative;
+}
+
+.hero-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(252, 128, 25, 0.08);
+    border: 1px solid rgba(252, 128, 25, 0.2);
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-bottom: 24px;
+    color: var(--swiggy-dark-orange) !important;
+    font-weight: 700;
+}
+
+.animated-heading { font-size: clamp(2.5rem, 5vw, 3.5rem); margin-bottom: 24px; }
+.hero-tagline { font-size: 1.2rem; margin-bottom: 32px; line-height: 1.7; }
+.hero-buttons { display: flex; gap: 20px; flex-wrap: wrap; }
+
+.btn {
+    padding: 16px 32px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 1.05rem;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.btn-primary { background: linear-gradient(135deg, var(--swiggy-orange), var(--swiggy-light-orange)) !important; box-shadow: 0 8px 20px rgba(252, 128, 25, 0.3); }
+.btn-primary:hover { transform: translateY(-3px); background: linear-gradient(135deg, var(--swiggy-dark-orange), #D93F21) !important; }
+.btn-whatsapp { background: #25D366 !important; box-shadow: 0 8px 20px rgba(37, 211, 102, 0.3); }
+.btn-whatsapp:hover { transform: translateY(-3px); background: #20BD5A !important; }
+.btn i { margin-right: 8px; color: #fff !important; -webkit-text-fill-color: #fff !important; }
+
+.hero-image img { width: 100%; border-radius: 20px; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08); border: 1px solid var(--border-light); }
+
+/* =====================================================
+   5. SHARED LAYOUTS & CARDS
+===================================================== */
+.what-is-section, .why-choose, .documents-section, .grow-section, .results-section { padding: 80px 0; background: var(--bg-white) !important; }
+.why-cloud-section, .process-section, .scope-section, .trust-section { padding: 80px 0; background: var(--bg-light) !important; }
+.section-header { text-align: center; margin-bottom: 50px; max-width: 800px; margin-left: auto; margin-right: auto; padding: 0 20px; }
+
+/* Grid Layouts */
+.what-is-content { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; max-width: 1200px; margin: 0 auto; padding: 0 20px;}
+.what-is-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.reasons-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px; max-width: 1200px; margin: 0 auto; padding: 0 20px;}
+.documents-grid { max-width: 1000px; margin: 0 auto; padding: 0 20px; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
+.scope-grid, .features-grid { max-width: 1200px; margin: 0 auto; padding: 0 20px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; }
+.stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px; max-width: 1000px; margin: 0 auto; padding: 0 20px; }
+
+/* Cards */
+.mini-card, .reason-card, .doc-item, .scope-card, .feature-card, .stat-card {
+    background: #ffffff !important;
+    border: 1px solid var(--border-light) !important;
+    box-shadow: var(--card-shadow) !important;
+    border-radius: 16px;
+    transition: 0.3s ease;
+}
+
+.mini-card:hover, .reason-card:hover, .doc-item:hover, .scope-card:hover, .feature-card:hover, .stat-card:hover {
+    transform: translateY(-6px);
+    border-color: var(--swiggy-orange) !important;
+    box-shadow: 0 12px 36px rgba(252, 128, 25, 0.15) !important;
+}
+
+.mini-card { padding: 18px 16px; display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center; }
+.reason-card { padding: 28px 24px; text-align: center; }
+.doc-item { padding: 20px; display: flex; align-items: center; gap: 12px; }
+.scope-card, .feature-card { padding: 32px; }
+.stat-card { padding: 36px 24px; text-align: center; }
+.mini-icon { font-size: 2rem; color: var(--swiggy-orange) !important; -webkit-text-fill-color: var(--swiggy-orange) !important;}
+.reason-icon { font-size: 2.5rem; display: block; margin-bottom: 15px; color: var(--swiggy-orange) !important; -webkit-text-fill-color: var(--swiggy-orange) !important;}
+.scope-icon, .feature-icon { width: 70px; height: 70px; background: linear-gradient(135deg, var(--swiggy-orange), var(--swiggy-light-orange)); border-radius: 16px; display: flex; align-items: center; justify-content: center; font-size: 2rem; margin-bottom: 20px; color: #fff !important; -webkit-text-fill-color: #fff !important;}
+
+/* =====================================================
+   6. FSSAI ALERT SECTION (RESTORED)
+===================================================== */
+.fssai-alert { background: var(--bg-white) !important; padding: 60px 0; }
+.alert-container { max-width: 900px; margin: 0 auto; padding: 0 20px; }
+.alert-content-wrapper { 
+    background: #FEF2F2 !important; 
+    border: 2px solid #FECACA !important; 
+    border-radius: 16px; 
+    padding: 40px 30px; 
+    text-align: center; 
+}
+.alert-icon { font-size: 3rem; color: #DC2626 !important; -webkit-text-fill-color: #DC2626 !important; margin-bottom: 15px; display: inline-block; }
+.alert-content h3 { font-family: 'Montserrat', sans-serif !important; font-size: 1.6rem; color: #DC2626 !important; -webkit-text-fill-color: #DC2626 !important; margin-bottom: 10px; text-transform: uppercase; }
+.alert-help { font-size: 1rem; color: #16A34A !important; -webkit-text-fill-color: #16A34A !important; font-weight: 700; background: #F0FDF4 !important; padding: 10px 24px; border-radius: 50px; display: inline-block; margin-top: 8px; border: 1px solid #BBF7D0 !important; }
+
+/* =====================================================
+   7. PROCESS STEPS (RESTORED)
+===================================================== */
+.process-steps { 
+    display: flex !important; 
+    align-items: center !important; 
+    justify-content: center !important; 
+    flex-wrap: wrap !important; 
+    gap: 20px !important; 
+    margin-top: 20px; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 20px;
+}
+
+.step, .step-card { 
+    background: #ffffff !important;
+    border: 1px solid var(--border-light) !important;
+    box-shadow: var(--card-shadow) !important;
+    border-radius: 16px !important;
+    padding: 24px 20px !important; 
+    text-align: center !important; 
+    width: 200px !important; 
+    transition: 0.3s ease;
+}
+
+.step:hover, .step-card:hover {
+    transform: translateY(-6px) !important;
+    border-color: var(--swiggy-orange) !important;
+}
+
+.step-number { 
+    font-size: 2.2rem; 
+    font-weight: 900; 
+    background: linear-gradient(135deg, var(--swiggy-orange), var(--swiggy-light-orange));
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    background-clip: text !important;
+    margin-bottom: 10px; 
+}
+
+.step-icon { font-size: 2.5rem; color: var(--swiggy-orange) !important; -webkit-text-fill-color: var(--swiggy-orange) !important; margin-bottom: 15px; }
+.step-arrow { color: #CBD5E1 !important; -webkit-text-fill-color: #CBD5E1 !important; font-size: 1.4rem; }
+
+/* =====================================================
+   8. GROW SECTION (RESTORED)
+===================================================== */
+.grow-grid { 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 16px; 
+    justify-content: center; 
+    margin: 20px auto 32px; 
+    max-width: 1000px; 
+    padding: 0 20px;
+}
+
+.grow-item { 
+    background: #ffffff !important; 
+    border: 1px solid var(--border-light) !important; 
+    border-radius: 50px; 
+    padding: 14px 28px; 
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+    box-shadow: var(--card-shadow); 
+    transition: 0.3s; 
+    color: #0F172A !important; 
+    -webkit-text-fill-color: #0F172A !important;
+    font-weight: 700; 
+}
+
+.grow-item:hover { border-color: var(--swiggy-orange) !important; transform: translateY(-3px); }
+.grow-item i { color: var(--swiggy-orange) !important; -webkit-text-fill-color: var(--swiggy-orange) !important; font-size: 1.2rem; }
+
+.grow-result { text-align: center; margin-top: 40px; }
+.result-badge { 
+    background: linear-gradient(135deg, var(--swiggy-orange), var(--swiggy-light-orange)) !important; 
+    color: #ffffff !important; 
+    -webkit-text-fill-color: #ffffff !important; 
+    padding: 16px 36px; 
+    border-radius: 50px; 
+    font-size: 1.2rem; 
+    font-weight: 800; 
+    display: inline-block; 
+}
+
+/* =====================================================
+   9. CTA SECTION (RESTORED & CENTERED)
+===================================================== */
+.cta, section.cta {
+    background: linear-gradient(135deg, #fff9f5 0%, #ffffff 100%) !important;
+    border-top: 3px solid var(--swiggy-orange) !important;
+    padding: 80px 20px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    width: 100% !important;
+}
+
+.cta-content, .cta-container {
+    max-width: 900px !important;
+    margin: 0 auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    width: 100% !important;
+}
+
+.cta-buttons {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 20px !important;
+    width: 100% !important;
+    flex-wrap: wrap !important;
+    margin-top: 15px !important;
+}
+
+.btn-cta, .btn-cta-whatsapp {
+    font-family: 'Montserrat', sans-serif !important;
+    padding: 16px 36px !important;
+    border-radius: 50px !important;
+    font-weight: 800 !important;
+    font-size: 1.1rem !important;
+    text-decoration: none !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 10px !important;
+    margin: 0 auto !important;
+}
+
+.btn-cta {
+    background: #FFFFFF !important;
+    border: 2px solid var(--swiggy-orange) !important;
+    color: var(--swiggy-orange) !important;
+    -webkit-text-fill-color: var(--swiggy-orange) !important;
+}
+
+.btn-cta:hover {
+    background: var(--swiggy-orange) !important;
+    color: #FFFFFF !important;
+    -webkit-text-fill-color: #FFFFFF !important;
+}
+
+.btn-cta-whatsapp {
+    background: #25D366 !important;
+    color: #FFFFFF !important;
+    -webkit-text-fill-color: #FFFFFF !important;
+    border: none !important;
+}
+
+.btn-cta-whatsapp:hover {
+    background: #20BD5A !important;
+    transform: translateY(-3px) !important;
+}
+
+/* =====================================================
+   10. RESPONSIVE DESIGN
+===================================================== */
+@media (max-width: 968px) {
+    .hero-container { grid-template-columns: 1fr; text-align: center; }
+    .hero-image { order: -1; max-width: 600px; margin: 0 auto; }
+    .hero-buttons { justify-content: center; }
+    .what-is-content { grid-template-columns: 1fr; }
+    .process-steps { flex-direction: column !important; gap: 15px !important; }
+    .step-arrow { display: none !important; }
+}
+
+@media (max-width: 640px) {
+    .hero-buttons { flex-direction: column; }
+    .btn { width: 100%; }
+    .what-is-cards { grid-template-columns: 1fr; }
+    .btn-cta, .btn-cta-whatsapp { width: 100% !important; justify-content: center !important; }
+}

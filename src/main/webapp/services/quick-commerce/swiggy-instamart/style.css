@@ -1,0 +1,291 @@
+/* =====================================================
+   RESET & VARIABLES (LIGHT THEME)
+===================================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --swiggy-orange: #FC8019;
+    --swiggy-dark-orange: #E07015;
+    --swiggy-light-orange: #FF9633;
+    --swiggy-red: #D93F21;
+    
+    /* Light Theme Colors */
+    --bg-white: #ffffff;
+    --bg-light: #f8f9fa;
+    --bg-soft-orange: #fff9f5;
+    --text-dark: #111827;      
+    --text-gray: #4b5563;      
+    --border-light: #e5e7eb;   
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--bg-white);
+    color: var(--text-dark);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* HIDE DARK THEME JAVASCRIPT ARTIFACTS */
+#particleCanvas, .bg-gradient {
+    display: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+}
+
+/* =====================================================
+   HERO SECTION
+===================================================== */
+.hero {
+    min-height: 90vh;
+    background: linear-gradient(135deg, var(--bg-light) 0%, var(--bg-white) 50%, var(--bg-soft-orange) 100%);
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-top: 80px;
+}
+
+.hero-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 5rem;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.hero-content h1 {
+    font-size: clamp(2.5rem, 5vw, 4.5rem);
+    font-weight: 900;
+    color: var(--text-dark);
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+}
+
+.hero-content .highlight {
+    color: var(--swiggy-dark-orange);
+    display: inline-block;
+}
+
+.word-highlight {
+    background: linear-gradient(135deg, var(--swiggy-orange), var(--swiggy-red));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    color: var(--text-gray);
+    margin-bottom: 3rem;
+    line-height: 1.8;
+}
+
+.hero-buttons { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+
+.btn {
+    padding: 1.2rem 3rem;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: all 0.4s;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.btn-primary {
+    background: var(--swiggy-orange);
+    color: white;
+    box-shadow: 0 8px 25px rgba(252, 128, 25, 0.3);
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    background: var(--swiggy-dark-orange);
+    box-shadow: 0 12px 30px rgba(252, 128, 25, 0.4);
+}
+
+.btn-secondary {
+    background: var(--bg-white);
+    color: var(--text-dark);
+    border: 2px solid var(--border-light);
+}
+
+.btn-secondary:hover {
+    background: var(--bg-light);
+    color: var(--text-dark);
+    transform: translateY(-3px);
+    border-color: var(--swiggy-orange);
+}
+
+.hero-image img {
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
+    border: 1px solid var(--border-light);
+}
+
+/* =====================================================
+   ALL OTHER SECTIONS (SHARED STYLES)
+===================================================== */
+.trust-badges, .why-choose, .who-benefits, .trust-section, .results-section {
+    padding: 6rem 2rem;
+    background: var(--bg-white);
+}
+
+.why-choose, .trust-section { background: var(--bg-light); }
+
+.section-header { text-align: center; max-width: 900px; margin: 0 auto 5rem; }
+.section-header h2 { font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 900; color: var(--text-dark); margin-bottom: 1.5rem; }
+.section-header .subtitle { font-size: 1.3rem; color: var(--text-gray); }
+.intro-text { max-width: 1200px; margin: 0 auto 4rem; font-size: 1.2rem; color: var(--text-gray); text-align: center; }
+
+/* Grids */
+.badges-container { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-around; flex-wrap: wrap; gap: 3rem; }
+.features-grid { max-width: 1400px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 3rem; }
+.benefits-grid { max-width: 1400px; margin: 3rem auto 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem; }
+.trust-grid { max-width: 1200px; margin: 3rem auto 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2.5rem; }
+.results-grid { max-width: 1000px; margin: 0 auto; display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
+
+/* Cards */
+.badge, .feature-card, .benefit-card, .trust-item, .result-card {
+    background: var(--bg-white);
+    border: 1px solid var(--border-light);
+    border-radius: 20px;
+    padding: 2.5rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+    transition: all 0.4s;
+    text-align: center;
+}
+
+.badge { flex-direction: row; gap: 1rem; font-weight: 600; color: var(--text-dark); padding: 1.5rem; }
+
+.feature-card:hover, .benefit-card:hover, .trust-item:hover, .result-card:hover {
+    transform: translateY(-10px);
+    border-color: var(--swiggy-orange);
+    box-shadow: 0 15px 35px rgba(252, 128, 25, 0.1);
+    background: var(--bg-soft-orange);
+}
+
+.feature-icon, .benefit-icon, .badge-icon, .trust-item h4 i, .result-label i {
+    color: var(--swiggy-orange);
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    display: inline-block;
+}
+
+.feature-card h3, .benefit-card h4, .trust-item h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+}
+
+.feature-card p, .benefit-card p, .trust-item p { color: var(--text-gray); line-height: 1.7; }
+
+/* Results */
+.result-number {
+    display: block;
+    font-size: clamp(1.6rem, 3.5vw, 3rem);
+    font-weight: 900;
+    color: var(--swiggy-orange);
+    margin-bottom: 1rem;
+}
+.result-label { font-size: 0.95rem; font-weight: 600; color: var(--text-gray); }
+
+/* =====================================================
+   CTA SECTION (BULLETPROOF CENTER FIX)
+===================================================== */
+section.cta {
+    background: linear-gradient(135deg, var(--bg-light), var(--bg-white)) !important;
+    border-top: 3px solid var(--swiggy-orange) !important;
+    padding: 8rem 2rem !important;
+    width: 100% !important;
+    display: block !important; /* Switched to block to force center */
+    text-align: center !important;
+}
+
+section.cta .cta-content {
+    max-width: 900px !important;
+    width: 100% !important;
+    margin: 0 auto !important; /* Centers the container */
+    display: block !important;
+    text-align: center !important;
+}
+
+section.cta .cta-content h2 {
+    font-size: clamp(2.5rem, 5vw, 4rem) !important;
+    font-weight: 900 !important;
+    color: var(--text-dark) !important;
+    margin-bottom: 1.5rem !important;
+    text-align: center !important;
+    display: block !important;
+    width: 100% !important;
+}
+
+section.cta .cta-content p {
+    font-size: 1.5rem !important;
+    color: var(--text-gray) !important;
+    margin-bottom: 3rem !important;
+    text-align: center !important;
+    display: block !important;
+    width: 100% !important;
+}
+
+section.cta .cta-buttons {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+}
+
+.btn-cta {
+    background: var(--swiggy-orange) !important;
+    color: white !important;
+    padding: 1.5rem 3.5rem !important;
+    border-radius: 50px !important;
+    font-size: 1.3rem !important;
+    font-weight: 800 !important;
+    text-decoration: none !important;
+    transition: all 0.4s !important;
+    box-shadow: 0 10px 30px rgba(252, 128, 25, 0.3) !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 1rem !important;
+    margin: 0 auto !important; /* Force button to center */
+}
+
+.btn-cta:hover { 
+    transform: translateY(-5px) scale(1.05) !important; 
+    background: var(--swiggy-dark-orange) !important;
+    box-shadow: 0 15px 40px rgba(252, 128, 25, 0.5) !important;
+}
+
+/* =====================================================
+   RESPONSIVE DESIGN
+===================================================== */
+@media (max-width: 1024px) {
+    .hero-container { grid-template-columns: 1fr; text-align: center; gap: 3rem; }
+    .hero-buttons { justify-content: center; }
+    .hero-image { order: -1; max-width: 600px; margin: 0 auto; }
+}
+
+@media (max-width: 768px) {
+    .hero { min-height: auto; padding: 2rem 0; }
+    .hero-container { padding: 2rem 1rem; }
+    .hero-content h1 { font-size: 2rem; }
+    .btn, .btn-cta { width: 100%; justify-content: center; }
+    .results-grid { grid-template-columns: 1fr; }
+    .section-header h2 { font-size: 2rem; }
+    section.cta { padding: 5rem 1rem !important; }
+}

@@ -1,0 +1,12 @@
+db.url=jdbc:mysql://localhost:3306/iardo_db
+db.username=YOUR_DB_USER
+db.password=YOUR_DB_PASSWORD
+mail.host=YOUR_SMTP_HOST
+mail.port=587
+mail.username=YOUR_SMTP_USER
+mail.password=YOUR_SMTP_PASSWORD
+admin.email=YOUR_ADMIN_EMAIL
+contentful.baseUrl=https://cdn.contentful.com/spaces/your-space-id
+contentful.accessToken=YOUR_CONTENTFUL_TOKEN
+contentful.contentType=blogPost
+recaptcha.secretKey=YOUR_RECAPTCHA_SECRET
