@@ -669,7 +669,7 @@ section { padding: 80px 0; position: relative; }
       </div>
       <div class="step reveal d2">
         <div class="step-img-wrap">
-          <img src="https://iardo-assets.pages.dev/images/build.webp" alt="We Build" style="width:100%;height:100%;object-fit:cover;">
+          <img src="https://iardo-assets.pages.dev/images/design.webp" alt="We Build" style="width:100%;height:100%;object-fit:cover;">
           <div class="step-num-badge">3</div>
         </div>
         <h3>We build</h3>
