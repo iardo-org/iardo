@@ -45,7 +45,7 @@
                 </div>
 
                 <div class="hero-buttons">
-                    <a href="schedule-meeting.jsp" class="btn btn-primary">
+                    <a href="${pageContext.request.contextPath}/noon-onboarding/schedule-meeting/" class="btn btn-primary">
                         <span><i class="fas fa-rocket"></i> Launch on InstaShop</span>
                     </a>
                     <a href="https://wa.me/919310194865" target="_blank" class="btn btn-secondary">
@@ -278,7 +278,7 @@
             <h2>Start Selling on InstaShop Today</h2>
             <p>Want to grow your grocery business in UAE? Contact us today for a free consultation and start receiving orders fast!</p>
             <div class="cta-buttons">
-                <a href="schedule-meeting.jsp" class="btn-cta"><i class="fas fa-rocket"></i> Launch on InstaShop</a>
+                <a href="${pageContext.request.contextPath}/noon-onboarding/schedule-meeting/" class="btn-cta"><i class="fas fa-rocket"></i> Launch on InstaShop</a>
                 <a href="https://wa.me/919310194865" target="_blank" class="btn-cta btn-cta-whatsapp"><i class="fab fa-whatsapp"></i> Talk on WhatsApp Now</a>
             </div>
         </div>

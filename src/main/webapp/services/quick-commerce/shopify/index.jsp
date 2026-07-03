@@ -74,7 +74,7 @@
                 </div>
 
                 <div class="hero-buttons">
-                    <a href="schedule-meeting.jsp" class="btn btn-primary">
+                    <a href="${pageContext.request.contextPath}/noon-onboarding/schedule-meeting/" class="btn btn-primary">
                         <span><i class="fas fa-rocket"></i> Launch Your Shopify Store</span>
                     </a>
                     <a href="https://wa.me/919310194865" target="_blank" class="btn btn-secondary">
@@ -218,7 +218,7 @@
             <p>Want to build your own ecommerce website? Contact us today for a free consultation and start selling online in days, not months!</p>
             <div class="cta-buttons">
                 <a href="https://wa.me/919310194865" target="_blank" class="btn-cta"><i class="fab fa-whatsapp"></i> Talk on WhatsApp Now</a>
-                <a href="schedule-meeting.jsp" class="btn-cta"><i class="fas fa-rocket"></i> Start Your Shopify Journey</a>
+                <a href="${pageContext.request.contextPath}/noon-onboarding/schedule-meeting/" class="btn-cta"><i class="fas fa-rocket"></i> Start Your Shopify Journey</a>
             </div>
         </div>
     </section>

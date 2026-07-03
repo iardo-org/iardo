@@ -258,7 +258,7 @@ section{padding:7rem 2rem}
       <h1>Sell on <span>Flipkart</span><br>with Confidence</h1>
       <p>India’s largest marketplace meets IARDO’s advanced seller enablement.</p>
       <div class="hero-actions">
-        <a href="#process" class="btn btn-primary">Start Onboarding</a>
+        <a href="${pageContext.request.contextPath}/noon-onboarding/schedule-meeting/" class="btn btn-primary">Start Onboarding</a>
         <a href="#features" class="btn btn-outline">Explore Benefits</a>
       </div>
     </div>
@@ -302,7 +302,7 @@ section{padding:7rem 2rem}
 <section class="cta">
   <h2>Start Selling on Flipkart Today</h2>
   <p>Partner with IARDO & grow faster</p><br>
-  <a href="/schedule-meeting" class="btn btn-primary">Book Free Consultation</a>
+  <a href="${pageContext.request.contextPath}/noon-onboarding/schedule-meeting/" class="btn btn-primary">Book Free Consultation</a>
 </section>
 
 <jsp:include page="../../../includes/footer/footer.jsp" />

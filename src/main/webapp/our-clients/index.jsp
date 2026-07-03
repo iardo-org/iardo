@@ -426,9 +426,8 @@ scrollToTopBtn.addEventListener("click", () => {
 });
 
 /* ================= LOGOS ================= */
-const TOTAL = 514;
-const BASE1 = "https://iardo-clients1.pages.dev/"; // 1 to 268
-const BASE2 = "https://iardo-clients1.pages.dev/";          // 269 onwards
+const TOTAL = 507;
+const BASE1 = "https://iardo-assets.pages.dev/client-logo/"; 
 
 const grid = document.getElementById("grid");
 const marquee = document.getElementById("marquee");
@@ -438,7 +437,7 @@ for(let i = 1; i <= TOTAL; i++){
   card.className = "card";
   const img = document.createElement("img");
 
-  img.src = (i <= 269 ? BASE1 : BASE2) + i + ".webp";
+  img.src = BASE1 + i + ".webp";
   img.loading = "lazy";
   img.alt = `Client Logo ${i}`;
   

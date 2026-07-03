@@ -71,7 +71,7 @@
             </div>
             
             <div class="hero-buttons">
-                <a href="schedule-meeting.jsp" class="btn btn-primary">
+                <a href="${pageContext.request.contextPath}/noon-onboarding/schedule-meeting/" class="btn btn-primary">
                     <span>Get Free Marketing Audit</span>
                     <i class="fas fa-arrow-right"></i>
                 </a>
@@ -423,11 +423,11 @@
         <p>Get a free marketing audit and discover how we can 3x your ROI in 90 days. No obligations, just results-driven insights.</p>
         
         <div class="cta-buttons">
-            <a href="schedule-meeting.jsp" class="btn-cta primary">
+            <a href="${pageContext.request.contextPath}/noon-onboarding/schedule-meeting/" class="btn-cta primary">
                 <span>Get Free Marketing Audit</span>
                 <i class="fas fa-calendar-check"></i>
             </a>
-            <a href="schedule-meeting.jsp" class="btn-cta secondary">
+            <a href="${pageContext.request.contextPath}/noon-onboarding/schedule-meeting/" class="btn-cta secondary">
                 <span>Schedule Consultation</span>
                 <i class="fas fa-phone-alt"></i>
             </a>

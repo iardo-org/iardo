@@ -68,7 +68,7 @@
                 </div>
 
                 <div class="hero-buttons">
-                    <a href="schedule-meeting.jsp" class="btn btn-primary">
+                    <a href="${pageContext.request.contextPath}/noon-onboarding/schedule-meeting/" class="btn btn-primary">
                         <span><i class="fas fa-rocket"></i> Start Selling Now</span>
                     </a>
                     <a href="https://wa.me/919310194865" target="_blank" class="btn btn-secondary">
@@ -242,7 +242,7 @@
             <h2>Start Selling on Multiple Platforms Today</h2>
             <p>Let IARDO handle your complete multi-marketplace onboarding and maximize your online sales potential!</p>
             <div class="cta-buttons">
-                <a href="schedule-meeting.jsp" class="btn-cta"><i class="fas fa-rocket"></i> Get Free Consultation</a>
+                <a href="${pageContext.request.contextPath}/noon-onboarding/schedule-meeting/" class="btn-cta"><i class="fas fa-rocket"></i> Get Free Consultation</a>
                 <a href="https://wa.me/919310194865" target="_blank" class="btn-cta"><i class="fab fa-whatsapp"></i> Talk on WhatsApp</a>
             </div>
         </div>

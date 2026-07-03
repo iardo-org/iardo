@@ -472,7 +472,7 @@ body {
                 </div>
                 
                 <div class="hero-buttons animate-fade-in" style="animation-delay: 1s">
-                    <a href="schedule-meeting.jsp" class="btn btn-primary">
+                    <a href="${pageContext.request.contextPath}/noon-onboarding/schedule-meeting/" class="btn btn-primary">
                         Buy Now <i class="fas fa-shopping-cart"></i>
                     </a>
                     <a href="#plans" class="btn btn-secondary">
@@ -669,7 +669,7 @@ body {
             <p class="animate-on-scroll" data-delay="0.2">Get started with the most powerful email marketing platform. Custom pricing available based on your volume needs.</p>
             
             <div class="cta-buttons animate-on-scroll" data-delay="0.4">
-                <a href="schedule-meeting.jsp" class="btn btn-secondary btn-large">
+                <a href="${pageContext.request.contextPath}/noon-onboarding/schedule-meeting/" class="btn btn-secondary btn-large">
                     Schedule Demo <i class="fas fa-calendar"></i>
                 </a>
             </div>
