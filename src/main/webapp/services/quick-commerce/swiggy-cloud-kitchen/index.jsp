@@ -41,7 +41,7 @@
                 <p class="hero-tagline">Aap khana banaiye, <span class="highlight">1+ crore Swiggy users</span> tak pahunchana humara kaam.</p>
 
                 <div class="hero-buttons">
-                    <a href="schedule-meeting.jsp" class="btn btn-primary">
+                    <a href="${pageContext.request.contextPath}/noon-onboarding/schedule-meeting/" class="btn btn-primary">
                         <span><i class="fas fa-rocket"></i> Start My Onboarding</span>
                     </a>
                     <a href="https://wa.me/919310194865" class="btn btn-whatsapp" target="_blank">

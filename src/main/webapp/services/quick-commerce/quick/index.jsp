@@ -297,7 +297,7 @@
                 </div>
 
                 <div class="hero-buttons">
-                    <a href="schedule-meeting.jsp" class="btn btn-primary">
+                    <a href="${pageContext.request.contextPath}/noon-onboarding/schedule-meeting/" class="btn btn-primary">
                         <span><i class="fas fa-rocket"></i> Launch on Careem Quik</span>
                     </a>
                     <a href="#services" class="btn btn-secondary">
@@ -440,7 +440,7 @@
             <h2>Ready to Start Selling on Careem Quik?</h2>
             <p>Let IARDO handle your complete Careem Quik onboarding and reach millions of customers across UAE & GCC markets!</p>
             <div class="cta-buttons">
-                <a href="schedule-meeting.jsp" class="btn-primary"><i class="fas fa-rocket"></i> Begin Your Careem Quik Journey Now</a>
+                <a href="${pageContext.request.contextPath}/noon-onboarding/schedule-meeting/" class="btn-primary"><i class="fas fa-rocket"></i> Begin Your Careem Quik Journey Now</a>
             </div>
         </div>
     </section>

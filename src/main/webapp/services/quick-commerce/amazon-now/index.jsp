@@ -840,7 +840,7 @@ body {
                 </div>
 
                 <div class="hero-buttons">
-                    <a href="schedule-meeting.jsp" class="btn btn-primary">
+                    <a href="${pageContext.request.contextPath}/noon-onboarding/schedule-meeting/" class="btn btn-primary">
                         <span><i class="fas fa-rocket"></i> Start Onboarding</span>
                     </a>
                     <a href="#services" class="btn btn-secondary">
@@ -1013,7 +1013,7 @@ body {
             <h2>Start Selling on Amazon Now Today</h2>
             <p>Want to start selling on Amazon Now and grow your business? Contact us today for a free consultation — let IARDO handle your complete onboarding and get you live in days!</p>
             <div class="cta-buttons">
-                <a href="schedule-meeting.jsp" class="btn-cta"><i class="fas fa-rocket"></i> Start Your Amazon Now Seller Journey Today</a>
+                <a href="${pageContext.request.contextPath}/noon-onboarding/schedule-meeting/" class="btn-cta"><i class="fas fa-rocket"></i> Start Your Amazon Now Seller Journey Today</a>
             </div>
         </div>
     </section>

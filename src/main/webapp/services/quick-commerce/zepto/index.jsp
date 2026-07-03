@@ -610,7 +610,7 @@ body {
                 </div>
 
                 <div class="hero-buttons">
-                    <a href="schedule-meeting.jsp" class="btn btn-primary">
+                    <a href="${pageContext.request.contextPath}/noon-onboarding/schedule-meeting/" class="btn btn-primary">
                         <span><i class="fas fa-rocket"></i> Start Onboarding</span>
                     </a>
                     <a href="#services" class="btn btn-secondary">
@@ -753,7 +753,7 @@ body {
             <h2>Start Selling on Zepto Today</h2>
             <p>Want to grow your business on Zepto? Contact us today for a free consultation and let IARDO handle your complete onboarding process — get you selling in days!</p>
             <div class="cta-buttons">
-                <a href="schedule-meeting.jsp" class="btn-cta"><i class="fas fa-rocket"></i> Start Your Zepto Seller Journey Today</a>
+                <a href="${pageContext.request.contextPath}/noon-onboarding/schedule-meeting/" class="btn-cta"><i class="fas fa-rocket"></i> Start Your Zepto Seller Journey Today</a>
             </div>
         </div>
     </section>
