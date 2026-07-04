@@ -431,7 +431,7 @@
 						<p class="work-result">Supplying restaurants, cafés, IT parks,
 							and corporate vendors across India with premium brownies and
 							blondies in custom pack sizes.</p>
-						<a href="https://iardo.in/case-study-brownies.jsp"
+						<a href="${pageContext.request.contextPath}/case-studies/house-of-brownies/"
 							class="work-visit" target="_blank" rel="noopener">Visit
 							Website <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5"
 								stroke-linecap="round" stroke-linejoin="round">
