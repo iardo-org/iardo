@@ -1,10 +1,7 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html lang="en-IN">
 <head>
-<link rel="icon" type="image/webp"
-	href="https://iardo.pages.dev/logo_iardo_wbg.webp">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>What Documents Are Needed for Blinkit? | IARDO</title>
@@ -15,25 +12,19 @@
 <meta name="author" content="IARDO">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="alternate" hreflang="en-in"
-	href="${pageContext.request.contextPath}/answers/what-documents-needed-for-blinkit/">
+	href="https://iardo.in/answers/what-documents-needed-for-blinkit/">
 <link rel="canonical"
-	href="${pageContext.request.contextPath}/answers/what-documents-needed-for-blinkit/">
+	href="https://iardo.in/answers/what-documents-needed-for-blinkit/">
 <meta property="og:title"
 	content="What Documents Are Needed for Blinkit? | IARDO">
 <meta property="og:description"
 	content="What documents are needed to sell on Blinkit? GST, PAN, cancelled cheque, FSSAI, trademark and DSC. Full seller checklist by IARDO.">
 <meta property="og:type" content="article">
 <meta property="og:url"
-	content="${pageContext.request.contextPath}/answers/what-documents-needed-for-blinkit/">
+	content="https://iardo.in/answers/what-documents-needed-for-blinkit/">
 <meta property="og:site_name" content="IARDO">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary">
-<!-- ============================================================
-     JSON-LD schema for:  https://iardo.in/answers/what-documents-needed-for-blinkit/
-     FIXED: new URLs (trailing slash) + breadcrumb updated + WebSite node added + speakable selector.
-     Paste this whole <script> block inside the page's <head>.
-     NOTE: the speakable cssSelector ".answer-box" must match the element that wraps the quick answer on the page.
-     ============================================================ -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -44,37 +35,33 @@
       "name": "IARDO",
       "url": "https://iardo.in",
       "telephone": "+919310194865",
-      "email": "info@iardo.in",
-      "foundingDate": "2016",
-      "founder": { "@type": "Person", "name": "Manish Madan" },
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "714-715, 7th Floor, Amba Tower, DC Chowk, Sector-9",
-        "addressLocality": "Rohini",
-        "addressRegion": "Delhi",
-        "postalCode": "110085",
-        "addressCountry": "IN"
-      }
+      "email": "info@iardo.in"
     },
     {
       "@type": "WebSite",
       "@id": "https://iardo.in#website",
       "url": "https://iardo.in",
       "name": "IARDO",
-      "publisher": { "@id": "https://iardo.in#org" }
+      "publisher": {
+        "@id": "https://iardo.in#org"
+      }
     },
     {
       "@type": "WebPage",
-      "@id": "https://iardo.in/answers/what-documents-needed-for-blinkit/",
+      "@id": "https://iardo.in/answers/what-documents-needed-for-blinkit/#webpage",
       "url": "https://iardo.in/answers/what-documents-needed-for-blinkit/",
-      "name": "What Documents Are Needed to Sell on Blinkit?",
+      "name": "What Documents Are Needed for Blinkit? | IARDO",
       "inLanguage": "en-IN",
-      "datePublished": "2026-06-19T18:24:00+05:30",
-      "dateModified": "2026-07-08T10:00:00+05:30",
-      "isPartOf": { "@id": "https://iardo.in#website" },
+      "isPartOf": {
+        "@id": "https://iardo.in#website"
+      },
+      "datePublished": "2026-07-08",
+      "dateModified": "2026-07-09",
       "speakable": {
         "@type": "SpeakableSpecification",
-        "cssSelector": [ ".answer-box" ]
+        "cssSelector": [
+          ".answer-box"
+        ]
       }
     },
     {
@@ -82,41 +69,29 @@
       "@id": "https://iardo.in/answers/what-documents-needed-for-blinkit/#qa",
       "mainEntity": {
         "@type": "Question",
-        "name": "What Documents Are Needed to Sell on Blinkit?",
-        "text": "What Documents Are Needed to Sell on Blinkit?",
+        "name": "What Documents Are Needed for Blinkit?",
+        "text": "What Documents Are Needed for Blinkit?",
         "answerCount": 1,
-        "dateCreated": "2026-06-19T18:24:00+05:30",
-        "author": { "@id": "https://iardo.in#org" },
+        "author": {
+          "@type": "Organization",
+          "name": "IARDO",
+          "url": "https://iardo.in"
+        },
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "To sell on Blinkit you typically need a GST certificate, PAN card, a cancelled cheque, and business address proof. Food and grocery sellers also need an FSSAI licence. A trademark (or brand authorisation letter) and a digital signature are commonly required too. Sellers stocking in multiple states also need APOB (Additional Place of Business) added to their GST for each warehouse location. A valid GSTIN is mandatory, and keeping the business name identical across GST, PAN, and bank records prevents the most common rejections.",
+          "text": "To sell on Blinkit you need a registered business with GST, PAN, a cancelled cheque, trademark or brand authorisation, and a digital signature. Food and grocery sellers also need an FSSAI licence.",
           "url": "https://iardo.in/answers/what-documents-needed-for-blinkit/",
-          "dateCreated": "2026-07-08T10:00:00+05:30",
-          "upvoteCount": 0,
-          "author": { "@id": "https://iardo.in#org" }
-        }
-      }
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Do I need FSSAI if I do not sell food products?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. FSSAI is required specifically for food, grocery and beverage categories. Other categories generally do not need it."
-          }
+          "author": {
+            "@type": "Organization",
+            "name": "IARDO",
+            "url": "https://iardo.in"
+          },
+          "datePublished": "2026-07-08T10:00:00+05:30",
+          "upvoteCount": 0
         },
-        {
-          "@type": "Question",
-          "name": "Can I sell on Blinkit without a registered trademark?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "In many cases a registered trademark or a brand authorisation letter is needed to list as a brand and protect your listings. Requirements vary by category."
-          }
-        }
-      ]
+        "datePublished": "2026-07-08T10:00:00+05:30",
+        "upvoteCount": 0
+      }
     },
     {
       "@type": "BreadcrumbList",
@@ -136,7 +111,7 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "What Documents Are Needed to Sell on Blinkit?",
+          "name": "What Documents Are Needed for Blinkit?",
           "item": "https://iardo.in/answers/what-documents-needed-for-blinkit/"
         }
       ]
@@ -540,9 +515,11 @@ article ul li::before {
 </style>
 </head>
 <body>
-	<jsp:include page="../../includes/navbar/navbar.jsp" />
+<jsp:include page="../../includes/navbar/navbar.jsp" />
+
 	<header class="hero">
 		<div class="wrap">
+			
 			<h1>What Documents Are Needed for Blinkit?</h1>
 		</div>
 	</header>
@@ -580,13 +557,13 @@ article ul li::before {
 				<h4>Related Questions</h4>
 				<ul>
 					<li><a
-						href="${pageContext.request.contextPath}/answers/how-long-does-blinkit-onboarding-take/">How
+						href="https://iardo.in/answers/how-long-does-blinkit-onboarding-take/">How
 							Long Does Blinkit Onboarding Take?</a></li>
 					<li><a
-						href="${pageContext.request.contextPath}/answers/how-much-does-blinkit-onboarding-cost/">How
+						href="https://iardo.in/answers/how-much-does-blinkit-onboarding-cost/">How
 							Much Does Blinkit Onboarding Cost?</a></li>
 					<li><a
-						href="${pageContext.request.contextPath}/answers/is-blinkit-onboarding-fee-refundable/">Is
+						href="https://iardo.in/answers/is-blinkit-onboarding-fee-refundable/">Is
 							the Blinkit Onboarding Fee Refundable?</a></li>
 				</ul>
 			</div>
@@ -594,13 +571,12 @@ article ul li::before {
 				<h4>Read More</h4>
 				<ul>
 					<li><a
-						href="${pageContext.request.contextPath}/services/quick-commerce/blinkit-onboarding-services/">Blinkit
+						href="https://iardo.in/services/quick-commerce/blinkit-onboarding-services/">Blinkit
 							Onboarding Services (full guide)</a></li>
-					<li><a
-						href="${pageContext.request.contextPath}/blog/blinkit-seller-documents">Documents
+					<li><a href="https://iardo.in/blog/blinkit-seller-documents">Documents
 							Required to Sell on Blinkit</a></li>
-					<li><a href="${pageContext.request.contextPath}/answers/">All
-							Blinkit Answers</a></li>
+					<li><a href="https://iardo.in/answers/">All Blinkit
+							Answers</a></li>
 				</ul>
 			</div>
 			<h2>Contact IARDO</h2>
@@ -616,8 +592,8 @@ article ul li::before {
 				</div>
 				<div class="item">
 					<strong>Email &amp; Web</strong><span><a
-						href="mailto:info@iardo.in">info@iardo.in</a><br> <a
-						href="https://iardo.in">www.iardo.in</a></span>
+						href="mailto:info@iardo.in">info@iardo.in</a><br>
+					<a href="https://iardo.in">www.iardo.in</a></span>
 				</div>
 			</div>
 		</article>
@@ -629,6 +605,6 @@ article ul li::before {
 			<path
 				d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" /></svg><span
 		class="lbl">Chat on WhatsApp</span></a>
+		<jsp:include page="../../includes/footer/footer.jsp" />
 </body>
-<jsp:include page="../../includes/footer/footer.jsp" />
 </html>
