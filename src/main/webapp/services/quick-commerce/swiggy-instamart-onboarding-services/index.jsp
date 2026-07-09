@@ -16,16 +16,16 @@
 <meta name="geo.region" content="IN-DL">
 <meta name="geo.placename" content="Rohini, Delhi, India">
 <link rel="alternate" hreflang="en-in"
-	href="https://iardo.in/services/quick-commerce/swiggy-instamart-onboarding-services/">
+	href="${pageContext.request.contextPath}/services/quick-commerce/swiggy-instamart-onboarding-services/">
 <link rel="canonical"
-	href="https://iardo.in/services/quick-commerce/swiggy-instamart-onboarding-services/">
+	href="${pageContext.request.contextPath}/services/quick-commerce/swiggy-instamart-onboarding-services/">
 <meta property="og:title"
 	content="Swiggy Instamart Onboarding Services in India | IARDO">
 <meta property="og:description"
 	content="End-to-end Swiggy Instamart onboarding across PAN India — supplier registration, NPI catalogue, and go-live. Fully refundable if not live.">
 <meta property="og:type" content="website">
 <meta property="og:url"
-	content="https://iardo.in/services/quick-commerce/swiggy-instamart-onboarding-services/">
+	content="${pageContext.request.contextPath}/services/quick-commerce/swiggy-instamart-onboarding-services/">
 <meta property="og:site_name" content="IARDO">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
@@ -35,9 +35,9 @@
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://iardo.in#org",
+      "@id": "${pageContext.request.contextPath}#org",
       "name": "IARDO",
-      "url": "https://iardo.in",
+      "url": "${pageContext.request.contextPath}",
       "telephone": "+919310194865",
       "email": "info@iardo.in",
       "foundingDate": "2016",
@@ -58,33 +58,33 @@
     },
     {
       "@type": "WebPage",
-      "@id": "https://iardo.in/services/quick-commerce/swiggy-instamart-onboarding-services/#webpage",
-      "url": "https://iardo.in/services/quick-commerce/swiggy-instamart-onboarding-services/",
+      "@id": "${pageContext.request.contextPath}/services/quick-commerce/swiggy-instamart-onboarding-services/#webpage",
+      "url": "${pageContext.request.contextPath}/services/quick-commerce/swiggy-instamart-onboarding-services/",
       "name": "Swiggy Instamart Onboarding Services in India | IARDO",
       "description": "IARDO is a leading Swiggy Instamart onboarding agency in India \u2014 supplier registration, documents, NPI catalogue, and go-live handled end-to-end, PAN India.",
       "inLanguage": "en-IN",
       "isPartOf": {
-        "@id": "https://iardo.in#org"
+        "@id": "${pageContext.request.contextPath}#org"
       },
       "datePublished": "2026-07-08",
       "dateModified": "2026-07-08",
       "about": {
-        "@id": "https://iardo.in/services/quick-commerce/swiggy-instamart-onboarding-services/#service"
+        "@id": "${pageContext.request.contextPath}/services/quick-commerce/swiggy-instamart-onboarding-services/#service"
       }
     },
     {
       "@type": "Service",
-      "@id": "https://iardo.in/services/quick-commerce/swiggy-instamart-onboarding-services/#service",
+      "@id": "${pageContext.request.contextPath}/services/quick-commerce/swiggy-instamart-onboarding-services/#service",
       "name": "Swiggy Instamart Onboarding Services",
       "serviceType": "Swiggy Instamart supplier onboarding",
       "provider": {
-        "@id": "https://iardo.in#org"
+        "@id": "${pageContext.request.contextPath}#org"
       },
       "areaServed": {
         "@type": "Country",
         "name": "India"
       },
-      "url": "https://iardo.in/services/quick-commerce/swiggy-instamart-onboarding-services/",
+      "url": "${pageContext.request.contextPath}/services/quick-commerce/swiggy-instamart-onboarding-services/",
       "description": "End-to-end Swiggy Instamart onboarding across India \u2014 supplier registration, KYC, NPI catalogue creation, Category Manager coordination, and go-live. Fully refundable if your account does not go live."
     },
     {
@@ -94,19 +94,19 @@
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://iardo.in"
+          "item": "${pageContext.request.contextPath}"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Quick Commerce",
-          "item": "https://iardo.in/services/quick-commerce/"
+          "item": "${pageContext.request.contextPath}/services/quick-commerce/"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Swiggy Instamart Onboarding Services",
-          "item": "https://iardo.in/services/quick-commerce/swiggy-instamart-onboarding-services/"
+          "item": "${pageContext.request.contextPath}/services/quick-commerce/swiggy-instamart-onboarding-services/"
         }
       ]
     },
@@ -1330,7 +1330,7 @@ table tbody tr:nth-child(even) td {
 			<p>
 				For the complete, category-wise checklist, see our guide on the <a
 					class="inline"
-					href="https://iardo.in/blog/swiggy-instamart-seller-documents">documents
+					href="${pageContext.request.contextPath}/blog/swiggy-instamart-seller-documents">documents
 					required to sell on Swiggy Instamart</a>.
 			</p>
 
@@ -1375,7 +1375,7 @@ table tbody tr:nth-child(even) td {
 			<p>
 				Want it broken down step by step? See our full guide on <a
 					class="inline"
-					href="https://iardo.in/blog/how-to-sell-on-swiggy-instamart">how
+					href="${pageContext.request.contextPath}/blog/how-to-sell-on-swiggy-instamart">how
 					to sell on Swiggy Instamart</a>.
 			</p>
 
@@ -1491,7 +1491,7 @@ table tbody tr:nth-child(even) td {
 				price every SKU with the full cost factored in &mdash; before you go
 				live, not after &mdash; so your margins are protected from day one.
 				For a general overview, see our guide on <a class="inline"
-					href="https://iardo.in/blog/swiggy-instamart-commission-charges">Swiggy
+					href="${pageContext.request.contextPath}/blog/swiggy-instamart-commission-charges">Swiggy
 					Instamart commission and charges</a>.
 			</p>
 			<p>The reason we keep the specifics to a consultation is simple:
@@ -1630,51 +1630,51 @@ table tbody tr:nth-child(even) td {
 				India, in every major metro and tier-1 city, including:</p>
 			<div class="cities">
 				<a class="city"
-					href="https://iardo.in/services/quick-commerce/swiggy-instamart-onboarding-cities/delhi/">Swiggy
+					href="${pageContext.request.contextPath}/services/quick-commerce/swiggy-instamart-onboarding-cities/delhi/">Swiggy
 					Instamart Onboarding Delhi</a> <a class="city"
-					href="https://iardo.in/services/quick-commerce/swiggy-instamart-onboarding-cities/mumbai/">Swiggy
+					href="${pageContext.request.contextPath}/services/quick-commerce/swiggy-instamart-onboarding-cities/mumbai/">Swiggy
 					Instamart Onboarding Mumbai</a> <a class="city"
-					href="https://iardo.in/services/quick-commerce/swiggy-instamart-onboarding-cities/bangalore/">Swiggy
+					href="${pageContext.request.contextPath}/services/quick-commerce/swiggy-instamart-onboarding-cities/bangalore/">Swiggy
 					Instamart Onboarding Bangalore</a> <a class="city"
-					href="https://iardo.in/services/quick-commerce/swiggy-instamart-onboarding-cities/hyderabad/">Swiggy
+					href="${pageContext.request.contextPath}/services/quick-commerce/swiggy-instamart-onboarding-cities/hyderabad/">Swiggy
 					Instamart Onboarding Hyderabad</a> <a class="city"
-					href="https://iardo.in/services/quick-commerce/swiggy-instamart-onboarding-cities/pune/">Swiggy
+					href="${pageContext.request.contextPath}/services/quick-commerce/swiggy-instamart-onboarding-cities/pune/">Swiggy
 					Instamart Onboarding Pune</a> <a class="city"
-					href="https://iardo.in/services/quick-commerce/swiggy-instamart-onboarding-cities/chennai/">Swiggy
+					href="${pageContext.request.contextPath}/services/quick-commerce/swiggy-instamart-onboarding-cities/chennai/">Swiggy
 					Instamart Onboarding Chennai</a> <a class="city"
-					href="https://iardo.in/services/quick-commerce/swiggy-instamart-onboarding-cities/kolkata/">Swiggy
+					href="${pageContext.request.contextPath}/services/quick-commerce/swiggy-instamart-onboarding-cities/kolkata/">Swiggy
 					Instamart Onboarding Kolkata</a> <a class="city"
-					href="https://iardo.in/services/quick-commerce/swiggy-instamart-onboarding-cities/ahmedabad/">Swiggy
+					href="${pageContext.request.contextPath}/services/quick-commerce/swiggy-instamart-onboarding-cities/ahmedabad/">Swiggy
 					Instamart Onboarding Ahmedabad</a> <a class="city"
-					href="https://iardo.in/services/quick-commerce/swiggy-instamart-onboarding-cities/gurgaon/">Swiggy
+					href="${pageContext.request.contextPath}/services/quick-commerce/swiggy-instamart-onboarding-cities/gurgaon/">Swiggy
 					Instamart Onboarding Gurgaon</a> <a class="city"
-					href="https://iardo.in/services/quick-commerce/swiggy-instamart-onboarding-cities/noida/">Swiggy
+					href="${pageContext.request.contextPath}/services/quick-commerce/swiggy-instamart-onboarding-cities/noida/">Swiggy
 					Instamart Onboarding Noida</a> <a class="city"
-					href="https://iardo.in/services/quick-commerce/swiggy-instamart-onboarding-cities/jaipur/">Swiggy
+					href="${pageContext.request.contextPath}/services/quick-commerce/swiggy-instamart-onboarding-cities/jaipur/">Swiggy
 					Instamart Onboarding Jaipur</a> <a class="city"
-					href="https://iardo.in/services/quick-commerce/swiggy-instamart-onboarding-cities/chandigarh/">Swiggy
+					href="${pageContext.request.contextPath}/services/quick-commerce/swiggy-instamart-onboarding-cities/chandigarh/">Swiggy
 					Instamart Onboarding Chandigarh</a> <a class="city"
-					href="https://iardo.in/services/quick-commerce/swiggy-instamart-onboarding-cities/lucknow/">Swiggy
+					href="${pageContext.request.contextPath}/services/quick-commerce/swiggy-instamart-onboarding-cities/lucknow/">Swiggy
 					Instamart Onboarding Lucknow</a> <a class="city"
-					href="https://iardo.in/services/quick-commerce/swiggy-instamart-onboarding-cities/surat/">Swiggy
+					href="${pageContext.request.contextPath}/services/quick-commerce/swiggy-instamart-onboarding-cities/surat/">Swiggy
 					Instamart Onboarding Surat</a> <a class="city"
-					href="https://iardo.in/services/quick-commerce/swiggy-instamart-onboarding-cities/indore/">Swiggy
+					href="${pageContext.request.contextPath}/services/quick-commerce/swiggy-instamart-onboarding-cities/indore/">Swiggy
 					Instamart Onboarding Indore</a> <a class="city"
-					href="https://iardo.in/services/quick-commerce/swiggy-instamart-onboarding-cities/nagpur/">Swiggy
+					href="${pageContext.request.contextPath}/services/quick-commerce/swiggy-instamart-onboarding-cities/nagpur/">Swiggy
 					Instamart Onboarding Nagpur</a> <a class="city"
-					href="https://iardo.in/services/quick-commerce/swiggy-instamart-onboarding-cities/coimbatore/">Swiggy
+					href="${pageContext.request.contextPath}/services/quick-commerce/swiggy-instamart-onboarding-cities/coimbatore/">Swiggy
 					Instamart Onboarding Coimbatore</a> <a class="city"
-					href="https://iardo.in/services/quick-commerce/swiggy-instamart-onboarding-cities/kochi/">Swiggy
+					href="${pageContext.request.contextPath}/services/quick-commerce/swiggy-instamart-onboarding-cities/kochi/">Swiggy
 					Instamart Onboarding Kochi</a> <a class="city"
-					href="https://iardo.in/services/quick-commerce/swiggy-instamart-onboarding-cities/vadodara/">Swiggy
+					href="${pageContext.request.contextPath}/services/quick-commerce/swiggy-instamart-onboarding-cities/vadodara/">Swiggy
 					Instamart Onboarding Vadodara</a> <a class="city"
-					href="https://iardo.in/services/quick-commerce/swiggy-instamart-onboarding-cities/ghaziabad/">Swiggy
+					href="${pageContext.request.contextPath}/services/quick-commerce/swiggy-instamart-onboarding-cities/ghaziabad/">Swiggy
 					Instamart Onboarding Ghaziabad</a>
 			</div>
 			<p>
 				Based in Rohini, Delhi, we coordinate onboarding and inventory
 				across regions. <a class="inline"
-					href="https://iardo.in/services/quick-commerce/swiggy-instamart-onboarding-cities/">&rarr;
+					href="${pageContext.request.contextPath}/services/quick-commerce/swiggy-instamart-onboarding-cities/">&rarr;
 					View all cities we serve</a>.
 			</p>
 
@@ -1836,9 +1836,9 @@ table tbody tr:nth-child(even) td {
 				are strong quick-commerce channels with slightly different audiences
 				and models, and most winning brands eventually supply to both. See
 				our comparison of <a class="inline"
-					href="https://iardo.in/blog/swiggy-instamart-vs-blinkit-seller-onboarding">Swiggy
+					href="${pageContext.request.contextPath}/blog/swiggy-instamart-vs-blinkit-seller-onboarding">Swiggy
 					Instamart vs Blinkit for sellers</a>, or explore our <a class="inline"
-					href="https://iardo.in/services/quick-commerce/blinkit-onboarding-services/">Blinkit
+					href="${pageContext.request.contextPath}/services/quick-commerce/blinkit-onboarding-services/">Blinkit
 					onboarding services</a>. IARDO onboards brands onto both from a single
 				point of contact.
 			</p>
@@ -1926,7 +1926,7 @@ table tbody tr:nth-child(even) td {
 			</div>
 			<p>
 				For more common questions, see our <a class="inline"
-					href="https://iardo.in/answers/">quick-commerce answers hub</a>.
+					href="${pageContext.request.contextPath}/answers/">quick-commerce answers hub</a>.
 			</p>
 
 			<div class="closer">
@@ -1963,15 +1963,15 @@ table tbody tr:nth-child(even) td {
 			</h2>
 			<p>
 				Explore our Instamart resources: <a class="inline"
-					href="https://iardo.in/blog/how-to-sell-on-swiggy-instamart">How
+					href="${pageContext.request.contextPath}/blog/how-to-sell-on-swiggy-instamart">How
 					to Sell on Swiggy Instamart</a>, <a class="inline"
-					href="https://iardo.in/blog/swiggy-instamart-commission-charges">Instamart
+					href="${pageContext.request.contextPath}/blog/swiggy-instamart-commission-charges">Instamart
 					Commission &amp; Charges</a>, <a class="inline"
-					href="https://iardo.in/blog/swiggy-instamart-seller-documents">Documents
+					href="${pageContext.request.contextPath}/blog/swiggy-instamart-seller-documents">Documents
 					Required</a>, and <a class="inline"
-					href="https://iardo.in/blog/swiggy-instamart-vs-blinkit-seller-onboarding">Instamart
+					href="${pageContext.request.contextPath}/blog/swiggy-instamart-vs-blinkit-seller-onboarding">Instamart
 					vs Blinkit</a>. Have a quick question? Visit our <a class="inline"
-					href="https://iardo.in/answers/">answers hub</a>.
+					href="${pageContext.request.contextPath}/answers/">answers hub</a>.
 			</p>
 
 			<h2>
@@ -1990,7 +1990,7 @@ table tbody tr:nth-child(even) td {
 				<div class="item">
 					<strong>Email &amp; Web</strong><span><a
 						href="mailto:info@iardo.in">info@iardo.in</a><br>
-					<a href="https://iardo.in">www.iardo.in</a></span>
+					<a href="${pageContext.request.contextPath}">www.iardo.in</a></span>
 				</div>
 			</div>
 
