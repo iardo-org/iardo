@@ -1658,6 +1658,7 @@
     display: inline-flex;
     align-items: center;
     gap: 10px;
+    magin-bottom: 10px;
     font-size: 16px;
     font-weight: 600;
     color: #1a1a2e;
