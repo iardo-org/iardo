@@ -1848,20 +1848,46 @@
         <span class="btn-silver">Onboard <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg></span>
       </div>
     </a>
-    <!-- Swiggy -->
+    <!-- Swiggy Instamart -->
     <a href="${pageContext.request.contextPath}/services/quick-commerce/swiggy-instamart-onboarding-services/" class="service-card card-swiggy" target="_blank">
-      <div class="brand-glow"></div>
-      <div class="brand-logo">
-        <img src="logo/2.png" width="100%" alt="Swiggy">
-      </div>
-      <div class="brand-name">Swiggy</div>
-      <span class="brand-tag">Food & Delivery</span>
-      <p class="brand-desc">Complete restaurant partner onboarding with order management and fleet integration.</p>
-      <div class="card-footer">
-        <div class="card-tags"><span>🍽️ Food Tech</span><span class="dot"></span><span>🚚 Delivery</span></div>
-        <span class="btn-silver">Onboard <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg></span>
-      </div>
-    </a>
+
+		  <div class="brand-glow"></div>
+		
+		  <div class="brand-logo">
+		    <img src="logo/2.png" width="100%" alt="Swiggy Instamart">
+		  </div>
+		
+		  <div class="brand-name">Swiggy Instamart</div>
+		
+		  <span class="brand-tag">Quick Commerce</span>
+		
+		  <p class="brand-desc">
+		    Complete Swiggy Instamart seller onboarding with catalog setup, product listing, and quick-commerce integration.
+		  </p>
+		
+		  <div class="card-footer">
+		
+		    <div class="card-tags">
+		      <span>🛒 Quick Commerce</span>
+		      <span class="dot"></span>
+		      <span>🚚 Delivery</span>
+		    </div>
+		
+		    <span class="btn-silver">
+		      Onboard
+		      <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+		        <path
+		          stroke-linecap="round"
+		          stroke-linejoin="round"
+		          stroke-width="2"
+		          d="M14 5l7 7m0 0l-7 7m7-7H3">
+		        </path>
+		      </svg>
+		    </span>
+		
+		  </div>
+		
+		</a>
     <!-- BigBasket -->
     <a href="${pageContext.request.contextPath}/services/quick-commerce/big-basket-onboarding/" class="service-card card-bigbasket" target="_blank">
       <div class="brand-glow"></div>
@@ -2112,7 +2138,10 @@
                 	Rohini, Delhi - 110085
                 </p>
                 <span class="landline-text">
-                    <i class="fas fa-phone-alt"></i> +91 9876543210
+                    <i class="fas fa-phone-alt"></i> 011 3500 0243
+                </span>
+                <span class="landline-text">
+                    <i class="fas fa-phone-alt"></i> 011 3500 0245
                 </span>
             </div>
 
